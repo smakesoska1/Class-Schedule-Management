@@ -1,0 +1,96 @@
+body,html{
+    margin:0;
+    padding:0;
+}
+.topnav {
+    background-color: papayawhip;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color:lightgrey;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color:papayawhip;
+    color:black;
+  }
+
+body{
+
+    background-image: url("planiranjeNastavnik.jpg");
+}
+
+#sve{
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width:100%
+    
+}
+
+#forma-container{
+border: 8px solid;
+border-color: white;
+padding: 30px;
+background: #a3a375;
+}
+
+.forma {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+  width:100%
+}
+
+.form-polje {
+  display: flex;
+  flex-direction:row;
+  align-items:center;
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.label {
+  width: 18%;
+}
+
+input[type=time] {
+    width: 82%;
+    margin-left: 20px;
+    padding: 7px;
+}
+
+input[type=text] {
+    width: 82%;
+    margin-left: 20px;
+    padding: 7px;
+}
+
+select[id=danused]{
+    width: 82%;
+    margin-left: 17px;
+    padding: 7px;
+   
+}
+
+select[id=piliv]{
+    width: 82%;
+    margin-left: 17px;
+    padding: 7px;
+}
+
+
+
+

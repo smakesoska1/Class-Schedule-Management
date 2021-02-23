@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="planiranjeNastavnik.css">
+</head>
+
+<body>
+
+  <div class="topnav">
+    <a class="active" href="../Spirala1/spirala2rasporedi.html">Raspored</a>
+    <a href="../Spirala1/aktivnost.html">Aktivnost</a>
+    <a href="../Spirala1/planiranjeNastavnik.html">Planiranje nastavnika</a>
+    <a href="../Spirala1/podaciStudent.html">Podaci o studentu</a>
+  </div>
+
+
+
+  <div id="sve">
+    <div id="forma-container">
+      <form class="forma">
+
+
+        <div class="form-polje">
+          <span class="label">Naziv predmeta: </span>
+          <input type="text" name="naziv">
+        </div>
+
+        <div class="form-polje">
+          <label for="piliv" class="label">Tip: </label>
+          <select id="piliv" name="piliv">
+            <option value="predavanje">Predavanje</option>
+            <option value="vjezbe">Vježba</option>
+            <option value="tutorijali">Tutorijal</option>
+          </select>
+        </div>
+
+        <div class="form-polje">
+          <label for="appt" class="label">Vrijeme početka: </label>
+          <input type="time" id="appt1" name="appt">
+        </div>
+
+        <div class="form-polje">
+          <label for="appt" class="label">Vrijeme kraja: </label>
+          <input type="time" id="appt2" name="appt">
+        </div>
+
+        <div class="form-polje">
+          <label for="danused" class="label">Dan u sedmici: </label>
+          <select id="danused" name="danused">
+            <option value="ponedjeljak">Ponedjeljak</option>
+            <option value="utorak">Utorak</option>
+            <option value="srijeda">Srijeda</option>
+            <option value="cetvrtak">Četvrtak</option>
+            <option value="petak">Petak</option>
+            <option value="subota">Subota</option>
+            <option value="nedjelja">Nedjelja</option>
+          </select>
+        </div>
+
+       
+        <!-- 
+        <br>
+
+      
+        <br> -->
+
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>

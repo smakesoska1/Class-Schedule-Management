@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="studenti.css">
+</head>
+
+<body onload="loadGrupe()">  
+  <div id="sve">
+    <div id="forma-container">
+      <form class="forma">
+
+
+        <div class="form-polje">
+          <span class="label">Student: </span>
+          <textarea id='naziv' name="naziv" rows="6"></textarea>
+        </div>
+
+        <div class="form-polje">
+          <label for="grupa" class="label">Grupa: </label>
+          <select id="grupa" name="grupa">
+
+          </select>
+        </div>
+
+      <br>
+
+        <button onClick="submitForme()" type='button'>Pošalji</button>
+
+
+      </form>
+    </div>
+  </div>
+</body>
+<script src='spirala4ajax.js'></script>
+</html>

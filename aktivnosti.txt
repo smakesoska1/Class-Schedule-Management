@@ -1,0 +1,11 @@
+OI,vjezbe,12,14,srijeda
+WT,predavanja,15,17,petak
+RG,tutorijali,17,18,srijeda
+LD,vjezbe,10,12,ponedjeljak
+SP,predavanja,13,15,Cetvrtak
+DM,tutorijal,10,19,Petak
+IM1,vjezbe,13,14,srijeda
+SP,predavanja,12,14,Cetvrtak
+Ra,predavanja,12,14,Petak
+PWS,predavanja,16,17,Petak
+VVS,predavanje,8,9,srijeda

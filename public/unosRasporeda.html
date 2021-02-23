@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="unosRasporeda.css">
+  <script src='predmetiAktivnostiAjax.js'></script>
+</head>
+
+<body onload="return load()">
+
+  <div class="topnav">
+    <a class="active" href="../Spirala1/spirala2rasporedi.html">Raspored</a>
+    <a href="../Spirala1/aktivnost.html">Aktivnost</a>
+    <a href="../Spirala1/planiranjeNastavnik.html">Planiranje nastavnika</a>
+    <a href="../Spirala1/podaciStudent.html">Podaci o studentu</a>
+  </div>
+
+
+
+  <div id="sve">
+    <div id="forma-container">
+      <form class="forma">
+
+
+        <div class="form-polje">
+          <span class="label">Naziv predmeta: </span>
+          <input type="text" id='naziv' name="naziv">
+        </div>
+
+        <div class="form-polje">
+          <label for="piliv" class="label">Tip: </label>
+          <select id="tip" name="tip">
+          </select>
+        </div>
+
+        <div class="form-polje">
+          <label for="appt" class="label">Vrijeme početka: </label>
+          <input type="number" id="vrijemePocetka" name="vrijemePocetka">
+        </div>
+
+        <div class="form-polje">
+          <label for="appt" class="label">Vrijeme kraja: </label>
+          <input type="number" id="vrijemeKraja" name="vrijemeKraja">
+        </div>
+
+        <div class="form-polje">
+          <label for="danused" class="label">Dan u sedmici: </label>
+          <select id="dan" name="dan">
+          </select>
+        </div>
+
+        <button onClick="submitForme()" type='button'>Pošalji</button>
+
+       
+        <!-- 
+        <br>
+
+      
+        <br> -->
+
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>

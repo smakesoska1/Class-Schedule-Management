@@ -1,0 +1,123 @@
+body,
+html {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.topnav {
+  background-color: papayawhip;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 15px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: lightgrey;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: papayawhip;
+  color: black;
+}
+
+  .table-container {
+    position: absolute;
+    margin-top: 50px;
+  }
+
+  .top {
+    position: relative;
+    margin-top: 30px;
+    left: 7px;
+  }
+
+  .raspored {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+
+  td {
+    width: 20px;
+    height: 60px;
+    background: #ccccb3;
+  }
+
+
+  .aktivnost{
+    background-color: #c1f0f0;
+    text-align: center;
+  }
+
+.col6{
+  background-color: #ccccb3 !important;
+}
+
+
+  td:nth-of-type(even) {
+    border: 2px solid black;
+    border-left: 2px dashed black;
+  }
+
+  td:last-child {
+    border-right: 2px solid black !important;
+  }
+
+  td:first-of-type{
+    border-left: 2px solid black !important;
+  }
+  td:nth-of-type(odd) {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+  }
+
+  .ml-50 {
+    margin-left: 51px;
+  }
+
+  .ml-150 {
+    margin-left: 97px;
+  }
+
+  .border-right-solid{
+    border-right: 2px solid black !important;
+  }
+
+  .border-left-solid{
+    border-left: 2px solid black !important;
+  }
+.border-right-dashed{
+  border-right: 2px dashed black !important;
+}
+.border-left-dashed{
+  border-left: 2px dashed black !important;
+}
+.header-cell{
+  text-align: left;
+  margin-left: -10px;
+  font-weight: 400;
+}
+.dan-cell{
+  text-align: right;
+  padding-right: 5px;
+}
+.aktivnost-tekst{
+  font-weight:600;
+  text-align: center;
+}
+
+

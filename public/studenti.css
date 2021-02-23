@@ -1,0 +1,53 @@
+body{
+
+    background-color: white;
+}
+
+#sve{
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width:100%
+    
+}
+
+#forma-container{
+border: 8px solid;
+border-color: grey;
+padding: 30px;
+background: papayawhip;
+}
+
+.forma {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+  width:100%
+}
+
+.form-polje {
+  display: flex;
+  flex-direction:row;
+  align-items:center;
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.label {
+  width: 20%;
+}
+
+
+input[type=text] {
+    width: 31%;
+    margin-left: 4px;
+    padding: 2px;
+}
+
+select[id=tip]{
+    width: 32%;
+    margin-left: 5px;
+    padding: 3px;
+}

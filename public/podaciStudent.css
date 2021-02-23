@@ -1,0 +1,67 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(219, 198, 198);
+}
+
+.topnav {
+  background-color: papayawhip;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 15px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: lightgrey;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: papayawhip;
+  color: black;
+}
+
+p {
+  text-align: center;
+}
+
+.table-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+table,
+td,
+th {
+  border: 1px solid black;
+  padding-left: 20px;
+}
+
+table {
+  border-collapse: collapse;
+
+}
+
+th {
+  height: 40px;
+  background-color: grey;
+}
+
+td {
+  height: 40px;
+  text-align: center;
+}
+
+table tr:hover {
+  border: 2px solid black;
+}

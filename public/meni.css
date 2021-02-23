@@ -1,0 +1,54 @@
+body,
+html {
+  background-color: rgb(219, 198, 198);
+  padding: 0;
+  margin: 0;
+}
+
+.topnav {
+  background-color: papayawhip;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 15px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: lightgrey;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: papayawhip;
+  color: black;
+}
+
+#slika1 {
+
+  background-repeat: no-repeat;
+  background-size: 30px 20px;
+  padding-left: 15px;
+  padding-top: 20px;
+
+}
+
+#slika2 {
+  background-repeat: no-repeat;
+  float: right;
+  padding-top: 5px;
+  padding-right: 60px;
+}
+
+
+#slika2 {
+  background-repeat: no-repeat;
+  float: right;
+  padding-bottom: 20px;
+  padding-right: 60px;
+}
